@@ -1,6 +1,6 @@
 {% set name = "xeus-wren" %}
-{% set version = "0.1.2" %}
-{% set sha256 = "bed8835be599b1070eae44abf25f8a68f6fb4a0510e795975a25158928719dba" %}
+{% set version = "0.2.0" %}
+{% set sha256 = "4354852a67a2e46a6f3a625c6edaa87797f6f3fdfa8d76c809c2e4db4d402467" %}
 
 package:
   name: {{ name|lower }}
