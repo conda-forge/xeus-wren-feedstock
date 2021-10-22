@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://github.com/DerThorsten/xeus-wren/archive/{{ version }}.tar.gz
+  url: https://github.com/jupyter-xeus/xeus-wren/archive/{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -43,14 +43,14 @@ test:
     - if not exist %PREFIX%\\share\\jupyter\\kernels\\xwren\\kernel.json (exit 1)           # [win]
 
 about:
-  home: https://github.com/DerThorsten/xeus-wren
+  home: https://github.com/jupyter-xeus/xeus-wren
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: Wren kernel for Jupyter based on xeus
   description: Jupyter kernel for the wren programming language
-  doc_url: https://github.com/DerThorsten/xeus-wren
-  dev_url: https://github.com/DerThorsten/xeus-wren
+  doc_url: https://github.com/jupyter-xeus/xeus-wren
+  dev_url: https://github.com/jupyter-xeus/xeus-wren
 
 extra:
   recipe-maintainers:
