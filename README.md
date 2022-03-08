@@ -1,7 +1,7 @@
 About xeus-wren
 ===============
 
-Home: https://github.com/DerThorsten/xeus-wren
+Home: https://github.com/jupyter-xeus/xeus-wren
 
 Package license: BSD-3-Clause
 
@@ -9,9 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xeus-wren-feeds
 
 Summary: Wren kernel for Jupyter based on xeus
 
-Development: https://github.com/DerThorsten/xeus-wren
+Development: https://github.com/jupyter-xeus/xeus-wren
 
-Documentation: https://github.com/DerThorsten/xeus-wren
+Documentation: https://github.com/jupyter-xeus/xeus-wren
 
 Jupyter kernel for the wren programming language
 
@@ -94,7 +94,8 @@ conda search xeus-wren --channel conda-forge
 About conda-forge
 =================
 
-[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+[![Powered by
+NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](https://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
