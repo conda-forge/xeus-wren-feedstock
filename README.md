@@ -156,4 +156,5 @@ Feedstock Maintainers
 =====================
 
 * [@DerThorsten](https://github.com/DerThorsten/)
+* [@SylvainCorlay](https://github.com/SylvainCorlay/)
 

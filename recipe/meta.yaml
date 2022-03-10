@@ -1,6 +1,6 @@
 {% set name = "xeus-wren" %}
-{% set version = "0.3.2" %}
-{% set sha256 = "4c8e7d3e0cc079d24bb3da518c89647723f313f8399538b67a78c9a6ae539a53" %}
+{% set version = "0.3.3" %}
+{% set sha256 = "5003ec793531243a379680f513fb8fabcfe0eebc42cb05dc9ed73b05daea641e" %}
 
 package:
   name: {{ name|lower }}
@@ -55,3 +55,4 @@ about:
 extra:
   recipe-maintainers:
     - DerThorsten
+    - SylvainCorlay
