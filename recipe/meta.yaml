@@ -1,6 +1,6 @@
 {% set name = "xeus-wren" %}
-{% set version = "0.3.3" %}
-{% set sha256 = "5003ec793531243a379680f513fb8fabcfe0eebc42cb05dc9ed73b05daea641e" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "39d3e26b8413fbc02120367813684a74e7b6ae8a48ff8eab875f31497b6899dd" %}
 
 package:
   name: {{ name|lower }}
@@ -21,10 +21,9 @@ requirements:
     - make  # [unix]
   host:
     - cppzmq >=4.6.0,<5
-    - zeromq
     - nlohmann_json >=3.2.0,<3.10
     - wren >=0.4.0
-    - xeus >=2.0
+    - xeus-zmq >=1.0.0,<2.0
     - xtl >=0.7
 
 test:
